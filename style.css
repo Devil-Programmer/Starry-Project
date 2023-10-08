@@ -4,6 +4,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+button {
+  font-family: cursive;
+}
+span {
+  font-family: cursive;
+}
+h1 {
+  font-family: cursive;
+}
+p {
+  font-family: cursive;
+}
+h2 {
+  font-family: cursive;
+}
+a {
+  font-family: cursive;
+}
 
 body {
   font-family: "Dela Gothic One", cursive;
@@ -76,7 +94,6 @@ header .nav ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  
 }
 
 .main-con .selector select {
@@ -200,7 +217,7 @@ header .nav ul li a {
   justify-content: center;
   margin-top: 148px;
   color: white;
-  font-family: "Young Serif", serif;
+  font-family: cursive;
 }
 #content .n-logo img {
   width: 300px;
@@ -310,14 +327,13 @@ footer .icons i {
   transition: all 0.3s ease-in-out;
 }
 
-footer .icons i:hover{
+footer .icons i:hover {
   transform: scale(1.2);
 }
 
 footer .list {
   display: flex;
   justify-content: center;
-  
 }
 
 footer .list ul {
