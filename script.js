@@ -1,0 +1,120 @@
+function oldfuntion(newfuntion) {
+  if (newfuntion == "one") {
+    document.getElementById("section-1").style.display = "block";
+    document.getElementById("section-2").style.display = "none";
+    document.getElementById("section-3").style.display = "none";
+    document.getElementById("section-4").style.display = "none";
+    document.getElementById("section-5").style.display = "none";
+    document.getElementById("section-6").style.display = "none";
+    document.getElementById("section-7").style.display = "none";
+    document.getElementById("section-8").style.display = "none";
+    document.getElementById("section-9").style.display = "none";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  } else if (newfuntion == "two") {
+    document.getElementById("section-1").style.display = "none";
+    document.getElementById("section-2").style.display = "block";
+    document.getElementById("section-3").style.display = "none";
+    document.getElementById("section-4").style.display = "none";
+    document.getElementById("section-5").style.display = "none";
+    document.getElementById("section-6").style.display = "none";
+    document.getElementById("section-7").style.display = "none";
+    document.getElementById("section-8").style.display = "none";
+    document.getElementById("section-9").style.display = "none";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  } else if (newfuntion == "three") {
+    document.getElementById("section-1").style.display = "none";
+    document.getElementById("section-2").style.display = "none";
+    document.getElementById("section-3").style.display = "block";
+    document.getElementById("section-4").style.display = "none";
+    document.getElementById("section-5").style.display = "none";
+    document.getElementById("section-6").style.display = "none";
+    document.getElementById("section-7").style.display = "none";
+    document.getElementById("section-8").style.display = "none";
+    document.getElementById("section-9").style.display = "none";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  } else if (newfuntion == "four") {
+    document.getElementById("section-1").style.display = "none";
+    document.getElementById("section-2").style.display = "none";
+    document.getElementById("section-3").style.display = "none";
+    document.getElementById("section-4").style.display = "block";
+    document.getElementById("section-5").style.display = "none";
+    document.getElementById("section-6").style.display = "none";
+    document.getElementById("section-7").style.display = "none";
+    document.getElementById("section-8").style.display = "none";
+    document.getElementById("section-9").style.display = "none";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  } else if (newfuntion == "five") {
+    document.getElementById("section-1").style.display = "none";
+    document.getElementById("section-2").style.display = "none";
+    document.getElementById("section-3").style.display = "none";
+    document.getElementById("section-4").style.display = "none";
+    document.getElementById("section-5").style.display = "block";
+    document.getElementById("section-6").style.display = "none";
+    document.getElementById("section-7").style.display = "none";
+    document.getElementById("section-8").style.display = "none";
+    document.getElementById("section-9").style.display = "none";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  } else if (newfuntion == "six") {
+    document.getElementById("section-1").style.display = "none";
+    document.getElementById("section-2").style.display = "none";
+    document.getElementById("section-3").style.display = "none";
+    document.getElementById("section-4").style.display = "none";
+    document.getElementById("section-5").style.display = "none";
+    document.getElementById("section-6").style.display = "block";
+    document.getElementById("section-7").style.display = "none";
+    document.getElementById("section-8").style.display = "none";
+    document.getElementById("section-9").style.display = "none";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  } else if (newfuntion == "seven") {
+    document.getElementById("section-1").style.display = "none";
+    document.getElementById("section-2").style.display = "none";
+    document.getElementById("section-3").style.display = "none";
+    document.getElementById("section-4").style.display = "none";
+    document.getElementById("section-5").style.display = "none";
+    document.getElementById("section-6").style.display = "none";
+    document.getElementById("section-7").style.display = "block";
+    document.getElementById("section-8").style.display = "none";
+    document.getElementById("section-9").style.display = "none";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  } else if (newfuntion == "eight") {
+    document.getElementById("section-1").style.display = "none";
+    document.getElementById("section-2").style.display = "none";
+    document.getElementById("section-3").style.display = "none";
+    document.getElementById("section-4").style.display = "none";
+    document.getElementById("section-5").style.display = "none";
+    document.getElementById("section-6").style.display = "none";
+    document.getElementById("section-7").style.display = "none";
+    document.getElementById("section-8").style.display = "block";
+    document.getElementById("section-9").style.display = "none";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  } else if (newfuntion == "nine") {
+    document.getElementById("section-1").style.display = "none";
+    document.getElementById("section-2").style.display = "none";
+    document.getElementById("section-3").style.display = "none";
+    document.getElementById("section-4").style.display = "none";
+    document.getElementById("section-5").style.display = "none";
+    document.getElementById("section-6").style.display = "none";
+    document.getElementById("section-7").style.display = "none";
+    document.getElementById("section-8").style.display = "none";
+    document.getElementById("section-9").style.display = "block";
+    document.getElementById("content").style.display = "none";
+    document.getElementById("info-desk").style.display = "none";
+    document.getElementById("main-content").style.display = "none";
+  }
+}

@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Dela+Gothic+One&family=Montserrat:wght@300;400;500;600&family=Overpass+Mono:wght@400;600&family=PT+Mono&family=Pacifico&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dela Gothic One", cursive;
+  font-family: "DM Mono", monospace;
+  font-family: "Overpass Mono", monospace;
+  font-family: "Pacifico", cursive;
+  font-family: "PT Mono", monospace;
+  font-family: "Young Serif", serif;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(
+    81.02deg,
+    rgb(250, 85, 96) -23.47%,
+    rgb(177, 75, 244) 45.52%,
+    rgb(77, 145, 255) 114.8%
+  );
+  animation: fadeInBackground 2s ease-in-out;
+}
+@keyframes fadeInBackground {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+header .logo a {
+  text-decoration: none;
+  padding: 0px 20px;
+  position: absolute;
+  margin-bottom: 118px;
+  font-size: 27px;
+  font-family: "Pacifico", cursive;
+}
+.gradient-text {
+  background: linear-gradient(
+    81.02deg,
+    rgb(205 7 20) -23.47%,
+    rgb(136 8 221) 45.52%,
+    rgb(255 255 255) 114.8%
+  );
+  -webkit-background-clip: text; /* For WebKit-based browsers like Chrome and Safari */
+  background-clip: text; /* Standard property */
+  color: transparent; /* Set the text color to transparent to reveal the gradient */
+}
+
+header .nav ul {
+  display: flex; /* Add display: flex to the ul */
+  list-style: none;
+  margin-top: 20px;
+  padding-left: 710px;
+}
+
+header .nav ul li {
+  margin-right: 20px;
+  padding: 0 20px;
+  font-family: cursive;
+  transition: all linear 0.3s ease-in;
+}
+
+header .nav ul li a:hover {
+  transform: scale(1.2);
+  color: black;
+}
+
+header .nav ul li:last-child {
+  margin-right: 0;
+}
+
+header .nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.main-con .selector select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 333px;
+  margin-left: 337px;
+  margin-bottom: 39px;
+  margin-top: -65px;
+  font-family: cursive;
+}
+
+@keyframes nfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card {
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 700px;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  animation: nfadein 2s ease-in-out;
+}
+
+.card img {
+  height: 60%;
+}
+
+.section-1 h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Dela Gothic One", cursive;
+}
+
+.card h1 {
+  padding: 20px 0;
+  font-weight: 800;
+}
+
+.card p {
+  font-weight: 600;
+}
+
+.pricing-history {
+  display: flex;
+}
+.pricing-history span h3 {
+  margin: 10px 22px;
+  font-weight: 700;
+  color: black;
+}
+
+.pricing-history span del {
+  color: red;
+  font-weight: 700;
+  position: absolute;
+  bottom: 32px;
+  font-size: 17px;
+  left: 112px;
+}
+
+.pricing-history button {
+  margin-left: 412px;
+  padding: 18px 14px;
+  border: none;
+  background: linear-gradient(
+    81.02deg,
+    rgb(250, 85, 96) -23.47%,
+    rgb(177, 75, 244) 45.52%,
+    rgb(77, 145, 255) 114.8%
+  );
+  transition: all 0.3s ease-in;
+  border-radius: 20px;
+}
+
+.pricing-history button:hover {
+  background: linear-gradient(
+    360deg,
+    rgb(250, 85, 96) -23.47%,
+    rgb(177, 75, 244) 45.52%,
+    rgb(77, 145, 255) 114.8%
+  );
+  transform: scale(1.01);
+}
+
+.pricing-history button a {
+  color: white;
+  text-decoration: none;
+  font-family: "Young Serif", serif;
+  font-weight: 100;
+  font-size: 17px;
+}
+.section-2 span del,
+.section-3 span del,
+.section-4 span del,
+.section-5 span del,
+.section-6 span del,
+.section-7 span del,
+.section-8 span del,
+.section-9 span del {
+  position: absolute;
+}
+#content {
+  position: relative;
+}
+#content .first-content h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 148px;
+  color: white;
+  font-family: "Young Serif", serif;
+}
+#content .n-logo img {
+  width: 300px;
+  position: absolute;
+  left: 523px;
+  top: 42px;
+}
+
+#info-desk {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  text-align: center;
+  margin-top: 428px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  height: 380px;
+  width: 356px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-top: 25px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  animation: fadein 2s ease-in-out;
+}
+
+.card-1 img,
+.card-2 img,
+.card-3 img {
+  border-radius: 10px;
+  padding-bottom: 17px;
+  margin-top: -8px;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+#main-content {
+  position: relative;
+  padding-top: 100px;
+  padding: 100px 0;
+}
+
+#main-content .info-1 img {
+  width: 600px;
+  margin-left: 60px;
+}
+
+#main-content span {
+  position: absolute;
+  font-size: 30px;
+  padding: 0px 88px;
+  font-weight: 800;
+  color: white;
+}
+
+#main-content .info-2 img {
+  width: 600px;
+  margin-top: 100px;
+  position: absolute;
+  right: 60px;
+}
+
+#main-content .info-2 span {
+  position: absolute;
+  font-size: 30px;
+  padding: 88px 88px;
+  font-weight: 800;
+  color: white;
+}
+
+footer {
+  position: relative;
+  top: 500px;
+  width: 100%;
+  height: 260px;
+  background-color: #282828;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .icons i {
+  color: white;
+  padding: 37px 20px;
+  font-size: 33px;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .icons i:hover{
+  transform: scale(1.2);
+}
+
+footer .list {
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer .list ul {
+  display: flex;
+  list-style: none;
+}
+
+footer .list ul li a {
+  padding: 13px 14px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+footer .right-content {
+  float: right;
+  font-size: 19px;
+  margin-top: -139px;
+  margin-right: 16px;
+}
+
+footer .right-content h2 {
+  font-family: cursive;
+  color: white;
+}
+
+footer .right-content .email span {
+  color: white;
+  font-family: cursive;
+}
+
+footer .right-content .number span {
+  color: white;
+  font-family: cursive;
+}
+
+footer .right-content .address span {
+  color: white;
+  font-family: cursive;
+}
+
+footer .right-content span i {
+  margin-right: 7px;
+}
+
+footer .tearms {
+  display: flex;
+  flex-direction: column;
+  margin-top: -125px;
+  padding: 11px 28px;
+}
+
+footer .tearms span a {
+  color: white;
+  padding: 5px 0;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+footer .tearms span a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer .copyright p {
+  text-align: center;
+  color: white;
+  margin-top: 58px;
+  font-family: cursive;
+  cursor: pointer;
+}
